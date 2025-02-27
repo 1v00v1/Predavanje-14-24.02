@@ -1,12 +1,15 @@
 package liga;
 
 
+import data.Data;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Liga {
+    private static Data d = new Data();
    private List<Utakmica> utakmice = new ArrayList<>();
-   private List<Klub> klubovi = Klub.klubovi;
+   private List<Klub> klubovi = d.klubovi;
 
     public Liga(List<Utakmica> utakmice) {
         this.utakmice = utakmice;

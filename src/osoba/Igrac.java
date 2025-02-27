@@ -17,9 +17,6 @@ public class Igrac extends Osoba{
         this.velKopačke = velKopačke;
     }
 
-    public Igrac(String ime, String prezime) {
-        super(ime, prezime);
-    }
 
     public static List<Igrac> generiranjeIgrača() {
         String tempIme;

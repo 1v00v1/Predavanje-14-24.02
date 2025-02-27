@@ -22,6 +22,6 @@ public class Trener extends  Osoba{
 
     @Override
     public String toString() {
-        return super.toString() +" godina iskustva: "+godIskustva;
+        return super.toString() +" godina iskustva: "+godIskustva+"\n";
     }
 }
