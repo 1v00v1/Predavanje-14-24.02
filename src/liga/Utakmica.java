@@ -72,7 +72,7 @@ public class Utakmica extends ID {
 private String strijelci(List<Igrac> i){
         String temp ="";
         if (i.isEmpty()){
-            return temp ="";
+            return temp ;
         }else {
             for (Igrac igrac : i) {
                 temp+=igrac.toString();
